@@ -1,0 +1,80 @@
+.top-header {
+  background-color: rgb(224, 224, 224);
+  height: 64px;
+  padding-top: 16px;
+}
+.top-header .logo {
+  margin-left: 60px;
+}
+.top-header .col-8 nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-header .col-8 nav ul {
+  display: flex;
+  list-style: none;
+}
+.top-header .col-8 nav ul li {
+  margin-left: 20px;
+  margin-right: 23px;
+}
+.top-header .col-8 nav ul li i {
+  color: red;
+}
+.top-header .col-8 nav button {
+  margin-right: 60px;
+}
+.top-header .col-8 nav button i {
+  color: red;
+  border-radius: 10px;
+  border-color: red;
+}
+
+.bottom-header {
+  background-color: rgb(175, 173, 173);
+}
+.bottom-header .col-8 nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: -75px;
+}
+.bottom-header .col-8 nav ul:hover {
+  color: gray;
+}
+.bottom-header .col-4 button {
+  margin-left: 246px;
+}
+.bottom-header .col-4 button img {
+  width: 60px;
+}
+
+.cards {
+  height: 200px;
+  padding-top: 29px;
+}
+.cards .links {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+.cards .links a {
+  background-color: rgb(170, 170, 170);
+  border-radius: 37px;
+  margin-right: 15px;
+  line-height: 20px;
+  padding: 6px 24px 8px;
+  color: #2e3131;
+  text-decoration: none;
+}
+.cards .links .general {
+  background-color: rgb(255, 79, 79);
+}
+
+.popular img {
+  width: 1384px;
+  margin-left: 31px;
+}/*# sourceMappingURL=cards.css.map */
